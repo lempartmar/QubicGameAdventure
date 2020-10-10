@@ -1,8 +1,6 @@
 # QubicGameAdventure
 
 
-# Project Title
-
 Single-player 2D sliding block puzzle game based on 5x5 matrix.
 
 Main assumptions:
