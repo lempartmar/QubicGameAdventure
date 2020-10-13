@@ -15,6 +15,7 @@
 
         <TableRow>
             <TextView
+                android:id="@+id/jeden"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -24,6 +25,7 @@
                 android:layout_weight="1"/>
 
             <TextView
+                android:id="@+id/dwa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -32,6 +34,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/trzy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -40,6 +43,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/cztery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -48,6 +52,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/piec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -58,6 +63,7 @@
         </TableRow>
         <TableRow>
             <TextView
+                android:id="@+id/szesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -67,6 +73,7 @@
                 android:layout_weight="1"/>
 
             <TextView
+                android:id="@+id/siedem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -75,6 +82,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/osiem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -83,6 +91,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dziewiec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -91,6 +100,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dziesiec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -101,6 +111,7 @@
         </TableRow>
         <TableRow>
             <TextView
+                android:id="@+id/jedenascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -110,6 +121,7 @@
                 android:layout_weight="1"/>
 
             <TextView
+                android:id="@+id/dwanascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -118,6 +130,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/trzynascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -126,6 +139,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/czternascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -134,6 +148,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/pietnascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -145,6 +160,7 @@
 
         <TableRow>
             <TextView
+                android:id="@+id/szesnascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -154,6 +170,7 @@
                 android:layout_weight="1"/>
 
             <TextView
+                android:id="@+id/siedemnascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -162,6 +179,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/osiemnascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -170,6 +188,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dziewietnascie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -178,6 +197,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dwadziescia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -188,6 +208,7 @@
         </TableRow>
         <TableRow>
             <TextView
+                android:id="@+id/dwadziesciajeden"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -197,6 +218,7 @@
                 android:layout_weight="1"/>
 
             <TextView
+                android:id="@+id/dwadziesciadwa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -205,6 +227,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dwadziesciatrzy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -213,6 +236,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dwadziesciacztery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
@@ -221,6 +245,7 @@
                 android:gravity="center"
                 android:layout_weight="1"/>
             <TextView
+                android:id="@+id/dwadziesciapiec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
