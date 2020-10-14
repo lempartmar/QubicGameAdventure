@@ -1,5 +1,7 @@
 package com.gamesforfriends.qubicgameadventure;
 
+import java.util.Arrays;
+
 // Klasa obsługująca matematykę gry
 //
 public class GameMatrix {
@@ -64,5 +66,10 @@ public class GameMatrix {
         return (finalCopy);
     }
 
+    // metoda do dzielenia tablic na części
+    public static int[] arraySplit(int[] myArray, int rowNumber) {
+        int[] myArray1 = Arrays.copyOfRange(myArray, rowNumber*5-5, rowNumber*5-1);
+        return myArray1;
+    }
 }
 
