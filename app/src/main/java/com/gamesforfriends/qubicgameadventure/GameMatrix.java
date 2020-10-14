@@ -71,5 +71,21 @@ public class GameMatrix {
         int[] myArray1 = Arrays.copyOfRange(myArray, rowNumber*5-5, rowNumber*5-1);
         return myArray1;
     }
+
+    public static int[] arrayMerge(int[] array) {
+
+        for(int i = 0; i<3;i++) {
+
+            System.arraycopy(array[0], 0, array[i+1], 5*(i+1),5);
+            System.out.println("Tablica merge[1]: " + array[0]);
+            System.out.println("Tablica merge[2]: " + array[1]);
+            System.out.println("Tablica merge[3]:: " + array[2]);
+            System.out.println("Tablica merge[4]: " + array[3]);
+            System.out.println("Tablica merge[5]: " + array[4]);
+        }
+        return array;
+    }
+
+
 }
 
