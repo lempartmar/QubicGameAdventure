@@ -86,6 +86,23 @@ public class GameMatrix {
         return array;
     }
 
+    public static Integer[] arrayRotateLeft(Integer[] array){
+
+        Integer[] finalArray = new Integer[]{
+                array[4],array[9],array[14],array[19],array[24],
+                array[3],array[8],array[13],array[18],array[23],
+                array[2],array[7],array[12],array[17],array[22],
+                array[1],array[6],array[11],array[16],array[21],
+                array[0],array[5],array[10],array[15],array[20]
+
+
+        };
+
+
+
+        return finalArray;
+    }
+
 
 }
 
