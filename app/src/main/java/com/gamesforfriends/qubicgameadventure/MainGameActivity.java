@@ -28,6 +28,11 @@ public class MainGameActivity extends AppCompatActivity {
 
             btnLeft = findViewById(R.id.btn_rotate_left);
 
+        public void gridChanged(Integer[] array){
+
+
+        };
+
             final ArrayAdapter<Integer> adapter = new ArrayAdapter<>(
                     this, android.R.layout.simple_list_item_1, Headline);
 
